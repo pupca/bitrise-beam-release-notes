@@ -1,0 +1,27 @@
+title: "Release notes grabber"
+summary: Release notes grabber
+description: Release notes grabber
+host_os_tags:
+  - osx-10.10
+project_type_tags:
+  - ios
+  - android
+  - xamarin
+type_tags:
+  - script
+is_requires_admin_user: false
+is_always_run: false
+is_skippable: true
+run_if: ""
+outputs:
+  - RELEASE_NOTES:
+    opts:
+      title: "Release Notes"
+      summary: Release Notes
+inputs:
+  - release_notes_url: Release notes URL
+    opts:
+      title: "Release notes URL"
+      is_expand: true
+      is_required: true
+      value_options: []
